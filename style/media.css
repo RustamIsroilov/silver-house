@@ -1,0 +1,118 @@
+@media (max-width:1200px) {
+    .section{
+        display: flex;
+        flex-direction: column;
+    }
+    .section__div{
+        margin: 20px auto;
+    }
+    .section__div2{
+        margin: 20px auto;
+        margin-bottom: 15px;
+    }
+    .section__img{
+        width: 100%;
+    }
+    .nav{
+       max-width: 100%;
+    }
+    .list{
+        justify-content: center;
+    }
+    .footer{
+        width: 100%;
+    }
+}
+@media (max-width:992px) {
+    .section__img{
+        width: 100%;
+    }
+}
+@media (max-width:768px) {
+    .list{
+        justify-content: center;
+        width: 100%;
+        padding: 20px;
+        gap: 20px;
+    }
+    .link a{
+        font-size: 16px;
+    }
+    .section__div{
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+        height: 600px;
+        
+
+    }
+    .section__div_text{
+        position: absolute;
+        padding: 15px;
+        margin-top: 35px;
+        line-height: 31px;
+    }
+}
+@media (max-width:576px) {
+    .section__div{
+        height: 700px;
+    }
+    .nav{
+        justify-content: center;
+        gap: 30px;
+    }
+    .list{
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .section__div2_a {
+        line-height: 65px;
+    }
+    .footer__div_img{
+        max-width: 200px;
+        justify-content: center;
+    }
+    .footer__div_title{
+        font-size: 18px;
+        text-align: center;
+        justify-content: center;
+    }
+    .footer__div_text{
+        font-size: 18px;
+        text-align: center;
+        justify-content: center;
+    }
+    .footer__div_div{
+        margin-top: 20px;
+        line-height: 20px;
+        justify-content: center;
+    }
+}
+@media (max-width:375px) {
+    .section__div{
+        height: 1100px;
+    }
+    .footer__div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__div_img{
+        margin: 15px auto;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .section__img{
+        margin-top: -10px;
+    }
+}
+@media (max-width:320px) {
+    .section__div{
+        height: 1250px;
+    }
+    .section__div2{
+        width: 85%;
+        margin-top: -5px;
+    }
+}
