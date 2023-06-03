@@ -55,7 +55,7 @@
 }
 @media (max-width:576px) {
     .section__div{
-        height: 800px;
+        height: 850px;
     }
     .nav{
         justify-content: center;
@@ -91,7 +91,7 @@
 }
 @media (max-width:375px) {
     .section__div{
-        height: 1200px;
+        height: 1250px;
     }
     .footer__div{
         flex-direction: column;
@@ -118,6 +118,6 @@
 }
 @media (max-width:476px) {
     .section__div{
-        height: 1050px;
+        height: 1100px;
     }
 }
