@@ -91,7 +91,7 @@
 }
 @media (max-width:375px) {
     .section__div{
-        height: 1100px;
+        height: 1200px;
     }
     .footer__div{
         flex-direction: column;
@@ -118,6 +118,6 @@
 }
 @media (max-width:476px) {
     .section__div{
-        height: 900px;
+        height: 1050px;
     }
 }
