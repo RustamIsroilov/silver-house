@@ -55,7 +55,7 @@
 }
 @media (max-width:576px) {
     .section__div{
-        height: 700px;
+        height: 800px;
     }
     .nav{
         justify-content: center;
@@ -114,5 +114,10 @@
     .section__div2{
         width: 85%;
         margin-top: -5px;
+    }
+}
+@media (max-width:476px) {
+    .section__div{
+        height: 900px;
     }
 }
